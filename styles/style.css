@@ -132,7 +132,7 @@ body{
 .description-function{
     margin: 0 auto;
     height: 786px;
-    background-image: url('/resources/ImgBackgroundFunction.jpg');
+    background-image: url('../resources/ImgBackgroundFunction.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
