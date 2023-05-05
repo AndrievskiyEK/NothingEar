@@ -1,0 +1,51 @@
+
+.promotion__header{     
+    margin-bottom: 42px;      
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 133px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #FF25C2;
+}
+
+.promotion-description{
+    margin: 0 auto;    
+    margin-bottom: 70px;
+    width: 819px;
+    height: 910px;
+    background-image: url(../resources/HeadPhones.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.promotion-description__text{    
+    margin: 0 auto;
+    width: 430px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+    .promotion-description{
+        width: 100%;        
+    }
+}  
+
+@media (max-width: 774px) {
+    .promotion__header{
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .promotion-description__text{
+        width: 100%;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

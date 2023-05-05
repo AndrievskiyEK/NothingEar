@@ -1,0 +1,45 @@
+.description-function{    
+    height: 786px;
+    background-image: url('../resources/ImgBackgroundFunction.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.description-function__header{
+    padding-top: 190px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #FF25C2;
+}
+
+.description-function__text{
+    display: block;
+    margin: 0 auto;
+    margin-top: 39px;
+    width: 671px;
+    height: 90px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;    
+    color: #FFFFFF;
+}
+
+@media (max-width: 774px) {
+    .description-function__header{
+        font-size: 60px;
+        line-height: 44px;
+    }
+
+    .description-function__text{
+        width: 100%;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

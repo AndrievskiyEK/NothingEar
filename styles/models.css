@@ -1,0 +1,167 @@
+.model__white,
+.model__black{    
+    margin-bottom: 80px;
+    width: 1150px;
+    height: 644px;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;   
+}
+
+.model__white{
+    background-image: url(../resources/backgroundEarWhite.jpg); 
+}
+
+.model__black{
+    background-image: url(../resources/backgroundEarBlack.jpg);
+    border: 1px solid #FFFFFF;
+}
+
+
+.model__type{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 375px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.model__type-img{
+    margin-top: 149px;
+    margin-left: 50px;
+    margin-bottom: 27px;
+    width: 141px;
+    height: 142px;
+}
+
+.model__btn{
+    display: block;
+    margin-left: 50px;
+    width: 420px;
+    height: 110px;
+    border: 1px solid #FFFFFF;  
+    border-radius: 100px;    
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 110px;
+    text-align: center;
+    letter-spacing: -0.03em;    
+    color: #FFFFFF;     
+    text-decoration: none;   
+}
+
+.model__btn:hover{
+    color: #2D2D2D;
+    background: #FFFFFF;
+}
+
+.model__phone-wrapper{
+    margin-bottom: 150px;
+    display: flex;
+    gap: 25px;
+    color: #FFFFFF;
+}
+
+.model__phone-description{
+    padding-top: 364px;
+    width: 555px;    
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.model__phone{
+    width: 570px;
+    height: 644px;
+    position: relative;
+    background-image: url(../resources/nothing_phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 32px;
+}
+
+.model__phone-title{
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 42px;
+    letter-spacing: -0.05em;
+}
+
+.model__phone-img{
+    position: absolute;
+    left: 35px;
+    bottom: 45px;
+}
+
+@media (max-width: 1199px){
+    .model__white,
+    .model__black{
+        width: 100%;        
+    }
+
+    .model__black{
+        margin-bottom: 150px;
+    }
+
+    .model__phone-wrapper{
+        gap: 0px;
+        row-gap: 60px;
+        flex-direction: column;
+    }
+
+    .model__phone-description{
+        padding-top: 0px;
+        width: 100%; 
+        max-width: 831px;      
+    }
+
+    .model__phone{
+        width: 695px;
+        margin-left: calc(100vw - 725px);
+    }
+}
+
+@media (max-width: 774px) {
+    .model__white,
+    .model__black{
+        padding: 0px 14px 0px 15px;
+    }
+
+    .model__type{
+        margin-bottom: 310px;
+        padding: 43px 0px 0px 0px;        
+        max-width: 261px;        
+        font-size: 45px;
+        line-height: 42px;
+    }
+
+    .model__type-img{
+        display: none;
+    }
+    
+    .model__btn{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .model__phone-description{
+        font-size: 45px;
+        line-height: 42px;
+        hyphens: auto;
+    }
+
+    .model__phone{
+        margin-left: 0px;
+        width: 100%; 
+    }
+}

@@ -1,0 +1,90 @@
+
+.voice{
+    margin: 0 auto; 
+    padding-bottom: 130px;     
+    background-image: url(../resources/Voice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.voice-wrapper{
+    padding-top: 130px;
+}
+
+.voice__descriptions-header{
+    display: block;    
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+}
+
+.voice__descriptions-text{
+    margin-top: 40px;
+    display: block;    
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+}
+
+.voice-buy{
+    display: block;
+    margin: 0 auto;
+    margin-top: 58px;
+    width: 866px;
+    height: 110px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 107px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    background: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.voice-buy:hover{
+    color: #2D2D2D;
+    background: #FFFFFF;    
+}
+
+@media (max-width: 1199px) {
+    .voice{
+        padding-bottom: 150px; 
+    } 
+
+    .voice-wrapper{
+        padding-top: 150px;
+    }
+    
+    .voice__descriptions-header{
+        margin-bottom: 30px;
+    }
+
+    .voice__descriptions-text{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 921px;
+    }
+
+    .voice-buy{
+        margin-top: 56px;
+        width: 100%;        
+    }
+} 
+
+@media (max-width: 774px) {
+    .voice__descriptions-header{
+        font-size: 45px;
+        line-height: 33px;
+    }
+}
